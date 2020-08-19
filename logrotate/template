@@ -1,0 +1,8 @@
+LOGFILE {
+  rotate 12
+  monthly
+  compress
+  missingok
+  notifempty
+}
+
