@@ -10,7 +10,7 @@ Tested on the following hardware:
 - Swegon Casa R120 with a modbus adapter
 
 # Disclaimer
-A lot of this code is quick and dirty, so any improvements are welcome!
+A lot of this code is quick and dirty, so any improvements are welcome! Known significant improvements would be to use virtual-env, and to separate mqtt into a separate module.
 
 I have an issue with my Swegon Casa system where it keeps resetting about 20 times throughout the day. The clear indication of this is if the clock has been reset on the unit. I have been in contact with Swegon support without them being willing to resolve it. Therefore, the code contains a number of workarounds and filters to avoid the resets propagating into Home Assistant.
 
