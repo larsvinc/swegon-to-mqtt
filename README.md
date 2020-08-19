@@ -12,6 +12,8 @@ Tested on the following hardware:
 # Disclaimer
 A lot of this code is quick and dirty, so any improvements are welcome!
 
+I have an issue with my Swegon Casa system where it keeps resetting about 20 times throughout the day. The clear indication of this is if the clock has been reset on the unit. I have been in contact with Swegon support without them being willing to resolve it. Therefore, the code contains a number of workarounds and filters to avoid the resets propagating into Home Assistant.
+
 # Setup
 1. Clone the repo into /opt/swegon-to-mqtt
 2. Modify the MQTT setup portion of swegon-to-mqtt to match your mqtt server (and the one used by home assistant).
