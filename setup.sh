@@ -12,7 +12,7 @@ sudo adduser --system --no-create-home --group $USER
 
 # Add python packages
 sudo apt install python3-pip
-sudo pip3 install simplemodbus paho-mqtt
+sudo pip3 install minimalmodbus paho-mqtt
 
 
 # Systemd integration. Use template to create appropriate config file
